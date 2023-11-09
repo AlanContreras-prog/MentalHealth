@@ -1,0 +1,83 @@
+
+header {
+    background-color: #f3cdd2;
+    color: #458548;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 180px;
+    background-color: #FFB6C1;
+    color: #19871e;
+    
+    
+
+}
+
+col {
+    width: 100%;
+}
+
+
+
+
+
+
+.col {
+    text-align: center; /* Para centrar el contenido */
+}
+
+.col img {
+    display: block; /* Asegura que la imagen esté centrada en el contenedor */
+    border-width: 0px; /* Añade borde alrededor de la imagen */
+    border-color:#FFB6C1;
+    margin: 0 auto 10px; /* Espaciado inferior para separar las imágenes */
+}
+
+.col a {
+    display: block; /* Asegura que los enlaces estén centrados y ocupen todo el ancho del contenedor */
+}
+
+.col div {
+    background-color: #FFB6C1;
+    color: #19871e;
+    padding: 10px;
+
+}
+
+.col h2 {
+    background-color: #FFB6C1;
+    color: #19871e;
+}
+
+
+
+#mentalHealthPage .accordion-button {
+    background-color: #FFB6C1; /* Cambia el color de fondo a rosa claro (#FFB6C1) */
+    color: #19871e; /* Cambia el color del texto a verde oscuro (#19871e) */
+}
+
+#mentalHealthPage header img.img-thumbnail {
+       
+    float: left; /* Posiciona la imagen a la izquierda */
+    margin: 0;
+}
+
+
+
+

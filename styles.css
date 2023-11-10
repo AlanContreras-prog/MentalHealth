@@ -22,10 +22,24 @@ nav a {
 
 section {
     padding: 180px;
-    background-color: #FFB6C1;
+    background-color: #ffb6c1d6;
     color: #19871e;
     
     
+
+}
+
+#mentalHealthPage {
+    /*background-image: url(./imagenes/MENTALHEALTH-LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 50px 25px;*/
+    /*background-position: left top;*/
+    /*background-position: left center*/
+    /*background-position: 50% 10%;*/
+
+    background-image: url(./imagenes/MENTALHEALTH-LOGO.png) no repeat center center firex;
+    background-size: cover;
 
 }
 
@@ -34,6 +48,15 @@ col {
 }
 
 
+.col .accordion {
+    margin-top: -45px; /* Ajusto la altura del acrodión */
+}
+
+.col .accordion-collapse {
+    /* transicion del acordeon*/
+    /*transition: none;  Cambia o elimina esta línea */
+    
+}
 
 
 
@@ -43,11 +66,10 @@ col {
 }
 
 .col img {
-    display: block; /* Asegura que la imagen esté centrada en el contenedor */
-    border-width: 0px; /* Añade borde alrededor de la imagen */
-    border-color:#FFB6C1;
+    border-color:#ffb6c1d6;
     margin: 0 auto 10px; /* Espaciado inferior para separar las imágenes */
     padding: 0;
+    margin-top: 0;
 }
 
 .col a {
@@ -55,21 +77,21 @@ col {
 }
 
 .col div {
-    background-color: #FFB6C1;
+    background-color: #ffb6c1d6;
     color: #19871e;
     padding: 10px;
 
 }
 
 .col h2 {
-    background-color: #FFB6C1;
+    background-color: #ffb6c1d6;
     color: #19871e;
 }
 
 
 
 #mentalHealthPage .accordion-button {
-    background-color: #FFB6C1; /* Cambia el color de fondo a rosa claro (#FFB6C1) */
+    background-color: #ffb6c1d6; /* Cambia el color de fondo a rosa claro (#FFB6C1) */
     color: #19871e; /* Cambia el color del texto a verde oscuro (#19871e) */
 }
 
